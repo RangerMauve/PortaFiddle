@@ -1,0 +1,16 @@
+{
+  "name": "PortaFiddle",
+  "version": "0.0.0",
+  "description": "A simple clone of JS Fiddle for use offline",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "productivity",
+    "jsfiddle",
+    "editor"
+  ],
+  "author": "RangerMauve",
+  "license": "MIT"
+}

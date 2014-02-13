@@ -1,0 +1,49 @@
+@import '3L/3L';
+@font-face {
+	font-family: "Open Sans";
+	src: url("./Open Sans.eot"), url("./Open Sans.ttf");
+}
+html {
+	font-family: Arial;
+	.display-flex();
+	.box-sizing(border-box);
+	padding: 8px;
+	height: 100%;
+}
+body {
+	background: white;
+	border-radius: 20px;
+	.box-shadow(0 0 4px 4px rgba(0, 0, 0, 0.3) inset);
+	.flex(1);
+	padding: 10px;
+	margin: 0;
+	.display-flex();
+	.flex-direction(column);
+}
+main,
+nav {
+	.display-flex();
+}
+main {
+	.flex(1);
+}
+main > * {
+	.display-flex();
+	.flex-direction(column);
+	.flex(1);
+	> * {
+		.flex(1);
+		.box-shadow(0 0 2px 2px rgba(0, 0, 0, 0.3) inset);
+		padding: 2px;
+		border-radius: 4px;
+		margin: 4px;
+		.display-flex();
+		.flex-direction(column);
+		> * {
+			.flex(1);
+		}
+	}
+}
+#preview {
+	border: none;
+}

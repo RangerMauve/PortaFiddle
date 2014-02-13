@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>PortaFiddle</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav>
+		<button id="run" onclick="run()">Run</button>
+		<input id="title" value="Untitled">
+		<button id="save" onclick="save()">Save</button>
+		<button id="load" onclick="load()">Load</button>
+		<button id="list" onclick="list()">List</button>
+	</nav>
+	<main>
+		<section>
+			<section>
+				Javascript:
+				<section id="js" contenteditable="true"></section>
+			</section>
+			<section>
+				HTML:
+				<section id="html" contenteditable="true"></section>
+			</section>
+		</section>
+		<section>
+			<section>
+				CSS:
+				<section id="css" contenteditable="true"></section>
+			</section>
+			<section>
+				Preview:
+				<iframe id="preview" contenteditable="true"></iframe>
+			</section>
+		</section>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
